@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=500px, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- StyleSheet -->
+    <link href="css/bootstrap.css" 
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- SCript -->
+    <!-- <script src="js/bootstrap.js"></script> -->
+    <script src="js/bootstrap.min.js"></script>
+    <title>Bootstrap Form - 1512051 - Nguyen Quoc Cuong</title>
+</head>
+<body>
+   <div class="container">
+        <div class="forms">
+          <h2>Sign up</h2>
+          <form action="#" method="GET">
+                    <hr>
+                <div class="form-group row">
+                    <div class="col-xs-6">
+                            <label for="fname">First Name:</label>
+                        <input class="form-control float-right" type="text" name="fname" id="fname">
+                    </div>
+                    <div class="col-xs-6">
+                            <label for="lname">Last Name:</label>
+                        <input class="form-control" type="text" name="lname" id="lname">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-xs-6">
+                        <label for="email">Email:</label>
+                        <input class="form-control" type="email" name="email" id="email">
+                    </div>
+                </div>
+                <div class="form-group row">
+                        <div class="col-xs-6">
+                            <label for="bdate">Date of birth:</label>
+                            <input class="form-control" type="date" name="bdate" id="bdate">
+                        </div>
+                        <div class="col-xs-2">
+                            <label for="gender">Gender:</label>
+                                <select id="gender" class="form-control">
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="col-xs-4"></div>
+                    </div>
+                <hr>
+                <div class="form-group row">
+                    <div class="col-xs-8">
+                        <label for="pwd">Password:</label>
+                        <input class="form-control" type="password" name="pwd" id="pwd">
+                    </div>
+                    <div class="col-xs-4"></div>
+                </div>
+                <div class="form-group row">
+                        <div class="col-xs-8">
+                            <label for="re-pwd">Confirm password:</label>
+                            <input class="form-control" type="password" name="re-pwd" id="re-pwd">
+                        </div>
+                        <div class="col-xs-4"></div>
+                    </div>
+                <hr>
+                <div class="form-group row">
+                        <div class="col-xs-6">
+                            <label for="country">Country:</label>
+                            <input class="form-control" type="text" name="country" id="country">
+                        </div>
+                        <div class="col-xs-6">
+                            <label for="city">City:</label>
+                            <input class="form-control" type="text" name="city" id="city">
+                        </div>
+                </div>
+                <hr>
+                <!-- Submit-->
+                <div class="form-group row">
+                    <div class="checkbox col-xs-offset-6 col-xs-4">
+                        <input type="checkbox" id="final"> I agree with Terms &amp; Conditions
+                    </div>
+                    <div class="col-xs-2">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+          </form>
+        </div>
+   </div>
+   <!-- end .container-->
+</body>
+</html>
