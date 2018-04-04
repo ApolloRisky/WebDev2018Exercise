@@ -1,0 +1,23 @@
+/* Override .container-fluid padding */
+/* .container-fluid{
+    padding-left:0;
+    padding-right: 0;
+} */
+
+.jumbotron{
+    text-align: center;
+}
+.tab-content{
+    border:1px solid rgb(218, 216, 221);
+    border-top:none;
+    padding:0px 10px 10px 10px;
+}
+
+.nav >ul>li {
+    background-color: rgba(155, 155, 155, 0.096);
+    font-size:120%;
+}
+.nav >ul>li active{
+    background-color: white;
+}
+.f
