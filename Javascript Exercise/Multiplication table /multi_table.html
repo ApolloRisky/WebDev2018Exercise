@@ -4,9 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="/Multiplication table /css/multiplytable.css">
+    <title>Multiplication Table</title>
 </head>
 <body>
-    MultipleTable
+    <div class="multitables-container">
+        <div class="input-container">
+            <input type="number" name="nrow" id="nrow" min="0" placeholder="Input number of rows">x
+            <input type="number" name="ncol" id="ncol" min="0" placeholder="Input number of cols">
+            <button id="genbtn" onclick="GenerateResult()"> Generate</button>
+        </div>
+        <div class="result">
+
+        </div>
+    </div>
 </body>
+<script src="/Multiplication table /js/multiplytable.js"></script>
 </html>

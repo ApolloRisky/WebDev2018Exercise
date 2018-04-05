@@ -1,0 +1,14 @@
+*{
+    padding:0;
+    margin:0;
+}
+.input-container input, #genbtn{
+    font-size:120%;
+}
+.table-item{
+    width:100px;
+    height:auto;
+    display: block;
+    margin:5px;
+    padding:5px;
+}
