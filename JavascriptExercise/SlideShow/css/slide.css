@@ -8,21 +8,8 @@ body {font-family: Verdana, sans-serif;}
 .mySlides img {
   vertical-align: middle;
 }
-.thumb{
-  margin:5px;
-  padding: 0;
-}
-.thumb img{
-  max-width: 100px;
-  height:auto;
-  border:2px solid grey;
-}
-.thumbnails-container{
-  width:60%;
-  padding:auto;
-  margin:0 auto;
-  transform: translateX(5%)
-}
+/*  */
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 650px;

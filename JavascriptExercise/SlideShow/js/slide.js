@@ -27,7 +27,7 @@ function showSlides() {
         dots[i].className = dots[i].className.replace(" active", "");
     }
     slides[slideIndex-1].style.display = "block";
-    thumbs[slideIndex-1].style.border = "3px solid blue";
+    thumbs[slideIndex-1].style.border = "5px solid blue";
     dots[slideIndex-1].className += " active";
     setTimeout(showSlides, 5000);
 }
